@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+<style>
+    body {
+  background-image: url("assets/img/bastionbg.jpg");
+  background-repeat: repeat;
+}
+
+h2.section-title {
+  color: white;
+}
+</style>
     <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +42,7 @@
 </head>
 
 <body>
-
+ 
     <!--Menu-->
     <div class="main-menu fixed-top">
         <nav class="nav-menu" >
@@ -60,7 +70,7 @@
                 <div class="col-12">
                     <!--Section title-->
                     <div class="section-heading">
-                        <h2 class="section-title"> Contact Me</h2>
+                        <h2 class="section-title"> ¡Contáctame!</h2>
                     </div>
                 </div>
             </div>
@@ -101,46 +111,12 @@
                 </div>
             </div>
             <div class="row mb-30" >
-                <!--form-->
-                <div class="col-lg-7 wow customFadeInUp slow" >
-                    <form action="assets/php/mail.php" class="contact_form" method="POST" id="main_contact_form">
-                        <div class="alert alert-success contact_msg" style="display: none" role="alert">
-                            Your message was sent successfully.
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="required">
-                        </div>
-                            
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
-                        </div>
-                            
-                        <div class="form-group">
-                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required="required">
-                        </div>
-                            
-                        <div class="form-group">
-                            <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Message" required="required"></textarea>
-                        </div>
-                            
-                        <button type="submit" name="submit" class="btn-custom">Send Message</button>
-                    </form>
-                </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </div>
-
+             
 
     <!--loading -->
     <div class="loading">
         <div class="circle"></div>
     </div>
-
-
-
-
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-3.5.0.min.js"></script>
