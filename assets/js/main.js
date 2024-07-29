@@ -1,22 +1,3 @@
-/* -----------------------------------------------
-					Js Main
---------------------------------------------------
-    Template Name: Elmiz - Personal Portfolio Template
---------------------------------------------------
-
-Table of Content
-
-	. Preloader
-    . Menu
-    . Progress Bar
-    . mixItUp
-    . MagnificPopup
-    . Testimonials
-    . WOW
-
- 
------------------------------------ */
-
 
 (function ($) {
     "use strict";
